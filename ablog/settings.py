@@ -72,12 +72,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'NCPfoEHFcqrHQJyVPlTErTKaYxJYJwHr',
+        'PASSWORD': 'YrpmvNsmsfPYmXhckLedMzmmwwDqtuBh',
         'HOST': 'junction.proxy.rlwy.net',
-        'PORT': '26533',
+        'PORT': '20222',
     }
 }
-
+#PGPASSWORD=YrpmvNsmsfPYmXhckLedMzmmwwDqtuBh psql -h junction.proxy.rlwy.net -U postgres -p 20222 -d railway
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
